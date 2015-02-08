@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctorz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.doctorz.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.doctorz.HomePage"
+            android:label="@string/title_activity_home_page"
+            android:parentActivityName="com.example.doctorz" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctorz.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name="com.example.doctorz.CheckLinguistic"
+            android:label="@string/title_activity_voice_checker"
+            android:parentActivityName="com.example.doctorz.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctorz.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.doctorz.HeartRateMonitor"
+            android:label="@string/title_activity_heart_rate_monitor"
+            android:parentActivityName="com.example.doctorz.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctorz.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.doctorz.CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:parentActivityName="com.example.doctorz.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctorz.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.doctorz.RecActivity"
+            android:label="@string/title_activity_rec"
+            android:parentActivityName="com.example.doctorz.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.doctorz.MainActivity" />
+        </activity>
+        
+    </application>
+
+</manifest>

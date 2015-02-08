@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DoctorZ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="Login">Log In</string>
+    <string name="Load">Load</string>
+    <string name="Detect">Detect</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="voicecheckermsg">Talk with different intonation and check with pitch contour</string>
+    <string name="proceed">Proceed</string>
+    <string name="cancel">Cancel</string>
+    <string name="record">Record</string>
+    <string name="back">Back</string>
+
+    <string-array name="action_array">
+        <item>Home</item>
+        <item>SpeechDisorderChecker</item>
+        <item>HeartRateMonitor</item>
+        <item>EmotionTracker</item>
+        <item>LogOut</item>
+    </string-array>
+
+    <string name="default_text">--</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_voice_checker">VoiceChecker</string>
+    <string name="title_activity_vocie_checker">VocieChecker</string>
+    <string name="title_activity_heart_rate_monitor">HeartRateMonitor</string>
+
+    <color name="myBlue">#4c495a</color>
+
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_rec">RecActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+</resources>

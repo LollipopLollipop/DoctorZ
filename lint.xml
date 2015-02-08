@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ValidFragment">
+        <ignore path="src/com/example/doctorz/HomePage.java" />
+        <ignore path="src/com/example/doctorz/VoiceChecker.java" />
+    </issue>
+</lint>
